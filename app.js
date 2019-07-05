@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 const db = require('./models/index');
-var port = 5000
 
 app.listen(4567, console.log("Servidor rodando"));
 
